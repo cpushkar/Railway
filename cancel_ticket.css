@@ -1,0 +1,105 @@
+*{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;  
+}
+/*ul li:hover a{
+    padding-left: 50px;
+}*/
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+.sidebar .details img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+}
+.sidebar header{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 220px;
+    background: #063143;
+    user-select: none;
+}
+.sidebar header a{
+    color: #496bf1;
+    font-size: 15px;
+}
+.sidebar header h3{
+    margin-top: 10px;
+}
+
+
+.cancel-box{
+    width: 450px;
+    height: 380px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 480px;
+    padding: 50px;
+    align-self: center;
+}
+.cancel-box h3{
+    font-size: 30px;
+    color: #496bf1;
+    padding-bottom: 20px;
+}
+.cancel-box .inputbox span{
+    font-size: 20px;
+    color: black;
+    
+}
+.cancel-box .inputbox input{
+    height:35px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding-left: 25px;
+    margin-left: 2px;
+    font-size: 16px;
+    background: transparent;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.cancel-box p{
+    font-size: 15px;
+    color: black;
+}
+
+.cancel-box .inputbox input[type=submit]{
+    background-color: green;
+    margin-left: 20px;
+    margin-top: -20px;
+    color: white;
+    cursor: pointer;
+
+}

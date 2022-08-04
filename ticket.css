@@ -1,0 +1,81 @@
+.body{
+    padding: 0%;
+}
+.receipt{
+    width: 800px;
+    height: 300px;
+    align-self: center;
+    margin-left: 300px;
+    margin-top: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.receipt .top{
+    width: 100%;
+    height: 50px;
+    background-color: #fcae1b;
+    display: flex;
+
+}
+.receipt .top .left{
+    left: 20px;
+}
+
+
+
+.receipt .top .right img{
+    width: 100px;
+    height: 50px;
+
+}
+
+.receipt .bottom{
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    background-color: #fcae1b;
+}
+.receipt .bottom p{
+    margin-left: 130px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.receipt .top .right h3{
+    margin-left: 290px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.receipt .main{
+    display: flex;
+    color: #000;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.receipt .main .left{
+    width: 400px;
+    margin-left: -30px;
+}
+.receipt .main .right{
+    margin-left: -30px;
+}
+.receipt .main .barcode{
+    background-color: blue;
+    height: 100%;
+    width: 60px;
+   
+}
+
+.main .receipt_table td{
+    padding-bottom: 5px;
+    padding-left: 50px;
+    
+}
+.main .receipt_table td .data{
+    font-weight: bold;
+}

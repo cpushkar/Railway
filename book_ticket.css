@@ -1,0 +1,254 @@
+*{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;  
+}
+/*ul li:hover a{
+    padding-left: 50px;
+}*/
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+.sidebar .details img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+}
+.sidebar header{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 220px;
+    background: #063143;
+    user-select: none;
+}
+.sidebar header a{
+    color: #496bf1;
+    font-size: 15px;
+}
+.sidebar header h3{
+    margin-top: 10px;
+}
+
+
+
+
+.head{
+    width: 80%;
+    height: 50px;
+    margin-left: 300px;
+    background-color: #496bf1;
+    color: white;
+    font-size: 30px;
+    
+}
+.head a{
+    margin-left: 360px;
+    padding-top: 20px;
+}
+.train{
+    width: 850px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 370px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.train .top{
+    display: flex;
+}
+.train .top .left {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.train .top .mid{
+    width: 100px;
+    margin-left: 280px;
+}
+.train .mid img{
+    width: 100px;
+    height: 100px;
+}
+
+.train .top .right {
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.train .bottom{
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #f5f8fa;
+    width: 800px;
+    height: 104px;
+    display: flex;
+}
+.train .bottom .head1{
+    font-size: 20px;
+}
+.train .bottom .box{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+
+
+}
+.train.bottom .box a{
+    padding-top: 20px;
+}
+.train .bottom .box .num{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.train .bottom .button input{
+    background: green;
+    margin-top: 25px;
+    margin-left: 10px;
+    height:35px;
+    width: 100px;
+    outline: none;
+    border : 1px solid #ccc;
+    padding-left: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+
+.login-box {
+    display: none;
+    position: absolute;
+    top: 50px;
+}
+.login-box .contentbox{
+    height: 560px;
+    width: 650px;
+    background-color: white;
+    margin-left: 370px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+
+.login-box .contentbox .formbox .login .inputbox input{
+    background-color: green;
+    padding: 5px;
+    color:#fff;
+    width: 30%;
+    border-radius: 0px;
+    margin-left: 350px;
+    
+}
+.contentbox .traindetails{
+    display: flex;
+}
+.contentbox .traindetails a{
+    font-size: 20px;
+}
+.contentbox .traindetails .time{
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contentbox .traindetails .from{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.contentbox .traindetails .mid img{
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+.login-box .contentbox .close{
+    transform: rotate(45deg);
+    margin-top: 20px;
+    margin-left: 600px;
+    color: black;
+    text-decoration: none; 
+    cursor: pointer;
+    font-size: 30px;
+}
+.login-box .contentbox .formbox{
+    margin-left: 30px;
+}
+.login-box .contentbox .formbox .inputbox{
+    margin-left: 55px;
+    margin-top: 30px;
+
+}
+.login-box .contentbox .formbox .inputbox a{
+    padding-bottom: 10px;
+    color: rgb(17, 65, 119);
+    
+}
+.login-box .contentbox .formbox .inputbox span{
+    font-size: 1.2rem;
+
+}
+.login-box .contentbox .formbox .personal{
+    display: flex;
+}
+
+.login-box .contentbox .formbox .selectbox{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.login-box .contentbox .formbox .inputbox input{
+   
+    height:35px;
+    width: 80%;
+    outline: none;
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding-left: 25px;
+    margin-left: 2px;
+    font-size: 16px;
+    background: transparent;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.faretable{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    
+}
+.faretable table, th, td {
+    border: 1px solid black;
+    padding: 9px;
+    border-collapse: collapse;
+}

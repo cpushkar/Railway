@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Railway</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="container">
+      <img src="images.jpg">
+      <div class="title">Registration</div><br>
+      <p>Please fill in this form to create an account.</p>
+      <hr><br>
+      <form action="register.php" method="post" enctype='multipart/form-data'>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" name="fullname" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email Id</span>
+            <input type="email" placeholder="Enter your Email" name="email" required >
+          </div>
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Enter your Number" name="phonenumber" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">State</span>
+            <input type="text" placeholder="Enter state" name="state" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" name="Address" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">DOB</span>
+            <input type="date" placeholder="Enter DOB" name="DOB" required>
+          </div>
+
+
+        </div>
+
+        <h3>Upload photo : </h3>
+        <hr>
+
+        <div class="documents">
+          <div class="input-box1">
+            <span class="details">Photo</span>
+            <input type="file" class="custom-file-input" placeholder="Enter your passport size photo" name="photo" required >
+          </div>
+        </div>
+
+        <h3>Create Password : </h3>
+        <hr>
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Password </span>
+            <input type="password" placeholder="Enter Password" name="password" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Re-Enter Password </span>
+            <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" name="login">
+        </div>
+      </form>
+    </div>
+</body>
+</html>

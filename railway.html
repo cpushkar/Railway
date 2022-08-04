@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo1.jpg" alt="">
+            </div>
+            <div class="options">
+                <ul>
+                    <li class="item"><a id="login">Login</a></li>
+                    <li class="item"><a href="signup.html">Register</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="home">
+            <img src="38876843180_93def7de72_c.jpg" alt="">
+
+            
+
+            <div class="search-box"> 
+                <div class="box">
+                    <h2>Search Trains</h2>
+				    <form action="search.php" method="POST">
+					    <div class="inputbox">
+						    <input type="text" placeholder="From" name="from" required>
+					    </div>
+                        <div class="sign">
+                            <a><i class="fas fa-exchange-alt fa-rotate-90"></i></a>
+                        </div>
+					    <div class="inputbox">
+						    <input type="text" placeholder="To" name="to" required>
+					    </div><br>
+                        <div class="inputbox">
+						    <input type="date" placeholder="Date" name="date" required>
+					    </div><br>
+                        <div class="inputbox">
+                            <span for="class">Class :</span>
+						    <select name="class" id="class">
+                                <option >Select</option>
+                                <option value="AC First Class">AC First Class</option>
+                                <option value="AC 2-Tier">AC 2-Tier</option>
+                                <option value="AC 3-Tier">AC 3-Tier</option>
+                                <option value="First Class">First Class</option>
+                                <option value="AC Chair Car">AC Chair Car</option>
+                                <option value="Sleeper">Sleeper</option>
+                              </select>
+					    </div><br>
+                        <div class="button">
+                            <input type="submit" value="Search" name="search">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+    </section id="about">
+    <div class="about">
+
+        <div class="img">
+            <img src="about.jpg" alt="">
+
+        </div>
+        
+        <div class="content">
+            <p>Indian Railway Catering and Tourism Corporation (IRCTC) is an Indian public sector undertaking that provides ticketing, catering, and tourism services for the Indian Railways. It was initially wholly owned by the Government of India and operated under the administrative control of the Ministry of Railways, but has been listed on the National Stock Exchange since 2019, with the Government continuing to hold majority ownership.</p>
+
+        </div>
+        
+
+
+    </div>
+
+    <section>
+
+    </section>
+
+
+
+
+    <footer id="contact">
+        <div class="content">
+            <div class="upper box">
+                <div class="left box">
+                    
+                    <div class="lower">
+                        <div class="topic">Contact us</div>
+                            <div class="phone">
+                            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                            <a>+91 1111111111</a>
+                            </div>
+                            <div class="email">
+                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                            <a >irctc@gmail.com</a>
+                            </div>
+                            <div class="address">
+                            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                            <a >Delhi, India</a>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="right box">
+                <div class="topic">Get In Touch With Us</div>
+                <form action="contact.php" method="post">
+                    <input type="text" placeholder="Enter email address" name="email" required>
+                    <input type="text" placeholder="Enter Number" name="number">
+                    <input type="text" placeholder="Enter message" name="message" required>
+                    <input type="submit" name="Send" value="Send">
+                </form>
+            </div>
+            
+        </div>
+        <div class="bottom">
+            
+           <div class="text">
+              <a href=""> Terms And Condition's  |  </a>
+              <a href=""> Privacy Policy </a>
+           </div>
+           
+           <p>Copyright © 2021 <a>irctc.com</a> All rights reserved</p>
+
+           <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+   
+<div class="login-box" >
+    <div class="contentbox">
+        <div class="close">
+            <a id="close">+</a>
+        </div>
+        <div class="formbox">
+
+            <img src="4957136.jpg" alt="">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <div class="inputbox">
+                    <span>Username</span><br>
+                    <input type="text" name="username" required>
+                </div>
+                
+                <div class="inputbox">
+                    <span>Password</span><br>
+                    <input type="password" name="password" required>
+                </div>
+                <div class="login">
+                    <div class="inputbox">
+                        <input type="submit" value="Sign In" name="login">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <a href="forget.html">forget password ?</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        document.getElementById("login").addEventListener("click",function(){
+            document.querySelector(".login-box").style.display = "flex";
+            document.querySelector(".home").style.opacity = "0.9";
+        })
+        
+        document.getElementById("close").addEventListener("click",function(){
+            document.querySelector(".login-box").style.display = "none";
+            document.querySelector(".home").style.opacity = "1";
+        })
+    </script>
+    
+
+    
+</body>
+
+</html>
